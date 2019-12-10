@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000000;
+  opacity: 0.8;
+  border-bottom: 1px solid #466995;
+  position : fixed;
+  width:100%;
+  z-index:10;
+  top:0px;
+}
+
+ul {
+  margin: 50px auto;
+  padding: 0 20px;
+  text-align: center;
+  height: 30px; 
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width:200px;
+}
+
+/*
+li:hover {
+	color: #87CEFA !important;
+}
+*/
+
+.bar a:hover {
+	color: rgb(249, 253, 0) !important;
+}
+
+.bar a {
+    color: rgb(194, 197, 11);
+    text-decoration: none;
+}
+
+.video a{
+	color:black;
+	text-decoration: none;
+}
+
+.video a:hover{
+	color:#87CEFA !important;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	font-size: 100px;
+	margin:10px;
+	padding: 10px;
+}
+
+h3{
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	margin:10px;
+	padding: 10px;
+}
+
+p{
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+}
+
+.me {
+	border-radius: 71px 75px 75px 71px;
+	
+	border: 0px solid #f0f0f0;
+	position: relative;
+	left: 30px;
+	padding-right: 30px;
+	margin-right: 20px;
+}
+
+.OCR {
+	position: relative;
+	text-align: left;
+	margin-bottom: 70px;
+	margin-right: 50px;
+	width: 45%;
+	display: inline-block;
+	float: right;
+}
+
+.Battleship {
+	position: relative;
+	text-align: left;
+	margin-bottom: 70px;
+	margin-left: 50px;
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+.Spacewar {
+	position: relative;
+	text-align: left;
+	margin-bottom: 70px;
+	margin-right: 50px;
+	display: inline-block;
+	width: 45%;
+	float: right;
+}
+
+.Todolist {
+	position: relative;
+	text-align: left;
+	margin-bottom: 70px;
+	margin-left: 50px;
+	display: inline-block;
+	width: 45%;
+}
+
+.Website {
+
+	position: relative;
+	text-align: left;
+	margin-bottom: 70px;
+	margin-left: 50px; 
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+
+/*
+.rotate {
+	transition: 0.1s;
+    transform: rotate(90deg);
+}
+
+.rotate-reset {
+    transform: rotate(0deg);
+    transition: .3s;
+}
+*/
+
+
+.photo-active 
+{
+    background-size: 30.8em 16.5em;
+    transition: 0.2s; 
+}
+
+.project-name {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.project-details {
+	margin-left: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.CPQD {
+	position: relative;
+	float: left;
+	left: 80px;
+	width: 600px;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 50px;
+	margin-right: 100px;
+}
+
+.Valid {
+	position: relative;
+	width:600px;
+	margin-left: : 100px;
+	left: 80px;
+	overflow: auto;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+.Aprendiz {
+	position: relative;
+	float: left;
+	left: 80px;
+	width: 60%;
+	/* display: inline-block; */
+	text-align: left;
+	padding-bottom: 50px;
+	margin-right: 100px;
+}
+
+/* #facebook:hover {
+	background-image: : url("site/facebook-hover.png");
+}
+*/
+
+
+.title {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 30px;
+}
+
+.year {
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.description {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.facebook {
+	padding-right: 10px;
+}
+
+
+.linkedin {
+	width: 125px;
+	height: 125px;
+}
+
+.mail {
+	padding-left: 10px;
+}
+
+#home {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: black;
+	font-weight: 300;
+	font-size: 80px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top:15px; 
+
+}
+
+#particles-js {
+	width: 100%;
+	background-color: rgb(42, 184, 124);
+	height: 800px;
+}
+
+#name {
+	box-sizing: border-box; 
+	font-family: 'Permanent Marker', cursive;
+	color: black;
+	font-weight: 300;
+	font-size: 100px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top:350px;
+}
+
+
+#description {
+	box-sizing: border-box; 
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-weight: 300;
+	font-size: 35px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	top:365px;
+}
+
+#Introduction {
+	box-sizing: border-box;
+	padding: 10px;
+	color: white;
+	background-color: rgb(2, 64, 109);
+	font-weight: 300;
+	text-align: left;
+	width: 100%;
+	position: relative;
+	/*height: 600px;*/
+}
+
+#Projects {
+	box-sizing: border-box;
+	padding: 10px;
+	color: black;
+	background-color: #E7ECEF;
+	font-weight: 300;
+	font-size: 20px;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+#Experience {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: black;
+	background-color: #B8E1FF;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+
+}
+
+#Contact {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: black;
+	background-color: rgb(144, 152, 153);
+	font-weight: 300;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	height: 350px;
+	overflow: visible;
+}
+.arrow{
+	margin-top:30px;
+	margin-left:10px;
+}
+footer{
+  padding: 30px 0;
+  color:  #BBB;
+  background: #222;
+  text-align: center;
+}
+.rodape{
+	font-size: 14px;
+}
+#sobre{
+	font-weight: 300;
+	font-size: 90px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+
+}
