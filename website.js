@@ -81,19 +81,19 @@ $(document).ready(() => {
 	$('.facebook').on('mouseenter', () => {
 	$('.facebook').animate({
 			height: '120px',
-			width: '120px'
+			width: '130px'
 		});
 	}).on('mouseleave', () => {
 		$('.facebook').animate({
 			height: '100px',
-			width: '100px'
+			width: '110px'
 		});
 	});
 
 		$('.linkedin').on('mouseenter', () => {
 	$('.linkedin').animate({
-			height: '145px',
-			width: '145px'
+			height: '150px',
+			width: '150px'
 		});
 	}).on('mouseleave', () => {
 		$('.linkedin').animate({
@@ -104,13 +104,13 @@ $(document).ready(() => {
 
 		$('.mail').on('mouseenter', () => {
 	$('.mail').animate({
-			height: '120px',
-			width: '120px'
+			height: '117px',
+			width: '132px'
 		});
 	}).on('mouseleave', () => {
 		$('.mail').animate({
-			height: '100px',
-			width: '100px'
+			height: '97px',
+			width: '115px'
 		});
 	});
 
