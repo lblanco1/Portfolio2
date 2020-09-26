@@ -185,23 +185,18 @@ p{
 .Valid {
 	position: relative;
 	width:600px;
-	margin-left: : 100px;
+	margin-left: 100px;
 	left: 80px;
 	overflow: auto;
 	text-align: left;
 	padding-bottom: 50px;
 }
 
-.Aprendiz {
-	position: relative;
-	float: left;
-	left: 80px;
-	width: 60%;
-	/* display: inline-block; */
-	text-align: left;
-	padding-bottom: 50px;
-	margin-right: 100px;
+.read-more {
+	cursor: pointer;
 }
+
+
 
 /* #facebook:hover {
 	background-image: : url("site/facebook-hover.png");
