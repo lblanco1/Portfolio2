@@ -184,13 +184,12 @@ p{
 
 .eitv {
 	position: relative;
-	float: left;
+	width:600px;
+	margin-left: 100px;
 	left: 80px;
-	width: 50%;
-	/* display: inline-block; */
+	overflow: auto;
 	text-align: left;
 	padding-bottom: 50px;
-	margin-right: 100px;
 }
 
 .read-more {
