@@ -215,11 +215,15 @@ p{
 	margin-left: 40px;
 }
 
+.education{
+	margin-left: 40px;
+}
+	
 .description {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	padding-bottom: 15px;
-	margin-left: 40px;
+	
 }
 
 .facebook {
