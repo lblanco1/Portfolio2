@@ -192,7 +192,7 @@ p{
 }
 
 .venturus {
-	position: relative;
+	/* position: relative; */
 	width: 500px;
 	margin-left: 100px;
 	left: 80px;
